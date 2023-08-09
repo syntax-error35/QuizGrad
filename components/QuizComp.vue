@@ -1,6 +1,8 @@
 <template>
     <div class="w-full text-center flex flex-col justify-center items-center gap-8">
+        <!-- load the question -->
         <div class=" text-question md:text-5xl text-2xl font-medium mb-10">{{ question }}</div>
+        <!-- load options -->
         <div class=" w-3/4 grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 gap-8">
             <div v-for="(option, i) in options" :key="i" class="group">
                 <div @click="setAsSelected(i)"

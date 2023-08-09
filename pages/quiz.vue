@@ -2,6 +2,7 @@
     <div class=" min-h-screen">
         <Navbar />
         <div class="w-full container mx-auto mt-40 ">
+            <!-- play the quiz -->
             <div v-if="index < quizInfo.length">
                 <div class="w-full flex justify-center md:mb-20 mb-16 relative ">
                     <SvgCounter />
@@ -13,9 +14,11 @@
                         :correctAns="quizInfo[index].correct" @changeQuestion="changeIndex" />
                 </div>
             </div>
+            <!-- show score -->
             <div v-else class="w-full flex flex-col justify-center items-center -mt-10 ">
                 <SvgScoreIcon class=" md:w-[277px] md:h-[285px] w-[200px] h-[200px]" />
                 <div class="bg-[#fffdd0] rounded-xl p-6 lg:mt-16 mt-10 w-fit h-fit">
+                    <!-- show total score -->
                     <div class="flex items-center justify-between pb-6 border-b-2 border-[#EDE8E3]">
                         <div class="flex items-center">
                             <div class="rounded-full bg-white p-2 w-12 h-12  md:block hidden  ">
@@ -30,7 +33,7 @@
                         </div>
                         <p class=" ml-32 font-extrabold text-question md:text-3xl text-2xl">{{ totalScore }}</p>
                     </div>
-
+                    <!-- show total time taken -->
                     <div class="flex items-center justify-between pt-6 ">
                         <div class="flex items-center">
                             <div class="rounded-full bg-white p-2 w-12 h-12 md:block hidden ">
