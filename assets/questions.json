@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the capital of the United Kingdom?",
+        "answers": [
+            "Manchester",
+            "Birmingham",
+            "London",
+            "Bristol"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the capital of France?",
+        "answers": [
+            "Bordeaux",
+            "Brest",
+            "Paris",
+            "Lyon"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "answers": [
+            "Barcelona",
+            "Sevilla",
+            "Madrid",
+            "Valencia"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the capital of Germany?",
+        "answers": [
+            "Berlin",
+            "Munich",
+            "Frankfurt",
+            "Hamburg"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the capital of Poland?",
+        "answers": [
+            "Warsaw",
+            "Krakow",
+            "Gdansk",
+            "Wroclaw"
+        ],
+        "correct": 0
+    }
+]

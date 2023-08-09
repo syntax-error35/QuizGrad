@@ -1,7 +1,7 @@
 <template>
     <div class="w-full text-center flex flex-col justify-center items-center gap-8">
-        <div class=" text-question text-5xl font-medium mb-10">{{ question }}</div>
-        <div class=" w-3/4 grid grid-cols-2 grid-rows-2 gap-8">
+        <div class=" text-question md:text-5xl text-2xl font-medium mb-10">{{ question }}</div>
+        <div class=" w-3/4 grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 gap-8">
             <div v-for="(option, i) in options" :key="i" class="group">
                 <div @click="setAsSelected(i)"
                     class="grid text-2xl px-6 py-4 rounded-lg  justify-start group-hover:border-4 group-hover:border-question group-hover:transition duration-300"
