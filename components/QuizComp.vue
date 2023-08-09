@@ -37,10 +37,8 @@ export default {
             this.selectedOption = index;
 
             setTimeout(() => {
-                this.$emit('changeQuestion', this.selectedOption === this.correctAns ? 10 : 0 )
+                this.$emit('changeQuestion', this.selectedOption === this.correctAns ? 10 : 0)
             }, 700)
-            // if (this.$parent && typeof this.$parent[this.question] === "function")
-
         }
     }
 

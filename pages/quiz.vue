@@ -15,7 +15,7 @@
             </div>
             <div v-else class="w-full flex flex-col justify-center items-center -mt-10 ">
                 <SvgScoreIcon class=" md:w-[277px] md:h-[285px] w-[200px] h-[200px]" />
-                <div class="bg-[#fffdd0] rounded-xl p-6 mt-10 w-fit h-fit">
+                <div class="bg-[#fffdd0] rounded-xl p-6 lg:mt-16 mt-10 w-fit h-fit">
                     <div class="flex items-center justify-between pb-6 border-b-2 border-[#EDE8E3]">
                         <div class="flex items-center">
                             <div class="rounded-full bg-white p-2 w-12 h-12  md:block hidden  ">
